@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import FeatherIcon from 'feather-icons-react';
-import Typist from 'react-text-typist';
+import Typist from 'react-typist';
 
 // swiper
 import { Autoplay } from 'swiper';
@@ -47,7 +47,7 @@ const Hero = () => {
                         <div className="mb-lg-0">
                             <h1 className="hero-title">
                                 A modern look and feel for your{' '}
-                                <Typist
+                                {/* <Typist
                                     className="highlight highlight-success d-inline-block"
                                     sentences={[
                                         'saas',
@@ -63,7 +63,7 @@ const Hero = () => {
                                     typingSpeed={100}
                                     deletingSpeed={60}
                                     cursorSmooth
-                                />
+                                // /> */}
                             </h1>
 
                             <p className="fs-18 text-muted pt-3">

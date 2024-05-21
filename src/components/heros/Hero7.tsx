@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Typist from 'react-text-typist';
+import Typist from 'react-typist';
 
 // components
 import { FormInput } from '../form';
@@ -18,12 +18,12 @@ const Hero7 = () => {
                             <h1 className="mt-3 mb-4 pb-2 hero-title">
                                 The <span className="highlight highlight-success d-inline-block">Fastest</span> & Secure
                                 way to Buy, Sell and Trade{' '}
-                                <Typist
+                                {/* <Typist
                                     sentences={['Cryptocurrency']}
                                     typingSpeed={100}
                                     deletingSpeed={60}
                                     cursorSmooth
-                                />
+                                /> */}
                             </h1>
                             <p className="fs-16 text-muted">
                                 A seamless, flexible and diverse platform to buy, sell and manage your cryptocurrency
